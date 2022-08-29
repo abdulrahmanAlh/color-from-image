@@ -56,8 +56,9 @@ const ColorFromImage: FC<ColorFromImageProps> = ({
       const canvas: any = canvasRef.current
       let context = canvas.getContext('2d')
       context.globalCompositeOperation = 'copy'
-      canvas.width = Img.width
-      canvas.height = Img.height
+
+      canvas.width = props?.style?.width ? props?.style?.width : Img.width
+      canvas.height = props?.style?.height ? props?.style?.height : Img.height
       context.drawImage(
         Img,
         0,
