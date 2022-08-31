@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/color-from-image.svg)](https://www.npmjs.com/package/color-from-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+[**Demo**](https://codesandbox.io/s/weathered-grass-lfom77?file=/src/App.js)
+
+![ScreenShot](https://drive.google.com/u/0/uc?id=1h9fc3gZO1W3ejXQWg56Y5CrUL2WO0clQ&export=download)
+
 ## Install
 
 ```bash
@@ -26,7 +30,7 @@ export default App
 
 ## Documentation
 
-You can use all <img /> attributes.
+You can use all **img** attributes.
 
 | Parameter       | Type                         | Description                  |
 | :-------------- | :--------------------------- | :--------------------------- |
